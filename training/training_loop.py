@@ -297,6 +297,7 @@ def training_loop(
             else:
                 for _round in rounds:
                     # tflib.run(G_train_op, feed_dict)
+                    pass
                 if run_G_reg:
                     for _round in rounds:
                         tflib.run(G_reg_op, feed_dict)
